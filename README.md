@@ -122,7 +122,7 @@ telegram-welcome-bot/
 
 #### 1. 克隆项目
 ```bash
-git clone https://github.com/yourusername/telegram-welcome-bot.git
+git clone https://github.com/ceteongvanness/telegram-welcome-bot.git
 cd telegram-welcome-bot
 ```
 
