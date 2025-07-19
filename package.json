@@ -1,0 +1,69 @@
+{
+  "name": "telegram-welcome-bot",
+  "version": "1.0.0",
+  "description": "Telegram群组欢迎新成员机器人，带内联管理界面",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit",
+    "heroku-postbuild": "npm run build",
+    "setup": "node scripts/setup.js",
+    "backup": "node scripts/backup.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "welcome",
+    "typescript",
+    "nodejs",
+    "inline-admin"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceteongvanness/telegram-welcome-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceteongvanness/telegram-welcome-bot/issues"
+  },
+  "homepage": "https://github.com/ceteongvanness/telegram-welcome-bot#readme",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "joi": "^17.11.0",
+    "date-fns": "^3.0.6",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/jest": "^29.5.8",
+    "@types/node-cron": "^3.0.11",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
