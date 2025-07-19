@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "lastModified": "2024-12-19T10:00:00.000Z",
+  "default": {
+    "welcomeText": "🎉 欢迎 {username} 加入我们的群组！\n\n🌟 很高兴你的到来！\n\n📱 请关注我们的社交媒体获取最新消息：\n\n❓ 如果有任何问题，请随时询问！",
+    "imageUrl": "https://via.placeholder.com/800x400/4CAF50/white?text=Welcome+to+Our+Group",
+    "links": [
+      {
+        "text": "Twitter",
+        "url": "https://twitter.com/yourhandle",
+        "emoji": "🐦"
+      },
+      {
+        "text": "YouTube",
+        "url": "https://youtube.com/yourchannel",
+        "emoji": "📺"
+      },
+      {
+        "text": "官网",
+        "url": "https://yourwebsite.com",
+        "emoji": "🌐"
+      },
+      {
+        "text": "Discord",
+        "url": "https://discord.gg/yourserver",
+        "emoji": "💬"
+      }
+    ],
+    "isEnabled": true,
+    "autoDelete": false,
+    "welcomeDelay": 0,
+    "lastUpdated": "2024-12-19T10:00:00.000Z",
+    "createdAt": "2024-12-19T10:00:00.000Z"
+  }
+}
